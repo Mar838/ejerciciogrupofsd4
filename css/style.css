@@ -8,7 +8,8 @@
     grid-template-areas: "a b d"
     "e c c"
     "f c c";
-    gap: 7px;    justify-content: center; 
+    gap: 7px;    
+    justify-content: center; 
     
 }
 
