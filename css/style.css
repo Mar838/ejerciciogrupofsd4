@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    height: 250px;
+    grid-template-areas: "a b d"
+    "e c c"
+    "f c c";
+}
+
+.a{
+    grid-area: a;
+    background-color: mediumaquamarine;
+
+}
+
+.b{
+    grid-area: b;
+    background-color: orange;
+
+}
+
+.c{
+    grid-area: c;
+    background-color:gold;
+
+}
+
+.d{
+    grid-area: d;
+    background-color: mediumpurple;
+
+}
+.e{
+    grid-area: a;
+    background-color: mediumvioletred;
+
+}
+.f{
+    grid-area: a;
+    background-color: mediumturquoise;
+
+}
